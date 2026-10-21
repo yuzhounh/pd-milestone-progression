@@ -1,0 +1,23 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+tmp/
+
+# Restricted PPMI data and participant-level derivatives
+code/PPMI_Curated_Data_Cut_Public_*.xlsx
+code/tables/
+code/PPMI_[0-9]*.csv
+
+# Analysis outputs written by the pipeline (results are not distributed)
+code/step_*.csv
+code/step_*.pdf
+code/step_*.svg
+code/step_*.json
+code/step_*.txt
+code/pipeline_run_log.csv
+code/pipeline_run_logs/
+code/pipeline_validation_summary.csv
+code/output_manifest.csv
+code/software_versions.csv

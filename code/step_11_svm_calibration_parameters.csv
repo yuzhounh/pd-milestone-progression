@@ -1,0 +1,2 @@
+calibration_method,n_folds,cal_a,cal_b
+platt_10fold_oof,10,1.0848546994057757,0.10100805323480279

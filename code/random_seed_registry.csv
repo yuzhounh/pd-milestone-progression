@@ -1,0 +1,13 @@
+registry_key,script_or_module,operation,seed,replication_detail
+LCA_MULTI_START,"lca_utils.py; step_03_lca_model_selection.py; step_04_lca_classification_quality.py; step_05_lca.py",StepMix independent initializations,"42;142;242;342;442;542;642;742;842;942",Best converged log-likelihood retained from 10 starts
+TRAIN_TEST_SPLIT,step_08_lasso_calculate.py,Stratified 70/30 development/test split,42,Single locked split
+LASSO_SELECTION,step_08_lasso_calculate.py,LASSO cross-validation and fitted estimators,42,Five-fold shuffled stratified training-only CV with fold-fitted preprocessing
+NESTED_CV,step_09_nested_cv_sensitivity.py,Repeated outer CV and fold-local inner analyses,42,Five repeats of five outer folds; fold seed equals 42 plus outer-fold index
+CLASS_UNCERTAINTY,step_09_class_uncertainty_sensitivity.py,OOF folds and posterior pseudo-label sampling,42,200 pseudo-label replicates
+LR_MODEL,step_11_lr.py,"Optuna sampler, CV, estimator, calibration and permutation importance",42,Ten-fold training-only CV
+RF_MODEL,step_11_rf.py,"Optuna sampler, CV, estimator, calibration and permutation importance",42,Ten-fold training-only CV
+SVM_MODEL,step_11_svm.py,"Optuna sampler, CV, estimator, calibration and permutation importance",42,Ten-fold training-only CV
+XGBOOST_MODEL,step_11_xgboost.py,"Optuna sampler, CV, estimator, calibration and permutation importance",42,Ten-fold training-only CV
+BOOTSTRAP_CI,step_12_bootstrap_ci_comparison.py,Stratified test-set bootstrap,20260702,"2,000 replicates"
+NOMOGRAM_FIT,step_13_lr_nomogram.py,Final LR fit,42,Uses locked development/test split
+SHAP_SUMMARY,step_17_shap_importance.py,SHAP sampling/summary generation,42,Training-set subsample explanation workflow

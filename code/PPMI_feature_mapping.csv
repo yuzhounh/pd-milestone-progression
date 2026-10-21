@@ -1,0 +1,46 @@
+Feature,Abbreviation
+PATNO,Patient ID
+age_at_visit,Age
+SEX,Sex (male=1; female=0)
+EDUCYRS,Education
+race,Race
+race_Black,Race: Black vs White
+race_Asian,Race: Asian vs White
+race_Other,Race: Other/multiracial vs White
+fampd_bin,FH-PD
+BMI,BMI
+ageonset,Age at Onset
+duration,PD duration (months)
+duration_months,PD duration (months)
+duration_years,PD duration (years)
+sym_tremor,Tremor
+sym_rigid,Rigidity
+sym_brady,Bradykinesia
+sym_posins,POSINS
+sym_other,Other Symptoms
+LEDD,LEDD (mg/day)
+upsit_pctl,UPSIT (percentile)
+moca,MoCA
+DVT_SDM,SDMT
+DVT_SFTANIM,SVF
+MSEADLG,S&E-ADL
+quip,QUIP
+ess,ESS
+rem,RBDSQ total score
+gds,GDS
+stai_state,STAI-S
+stai_trait,STAI-T
+scopa,SCOPA-AUT
+orthostasis,OH
+NHY,H&Y
+pigd,PIGD
+td_pigd,TD/PIGD
+NP1COG,NP1COG
+updrs1_score,UPDRS-I
+updrs2_score,UPDRS-II
+updrs3_score,UPDRS-III
+updrs4_score,UPDRS-IV
+APOE_e4,APOE-ε4
+MCI_testscores,MCI
+mia_lowput_expected,Lowest putamen SBR (unitless)
+MIA_STRIATUM_mean,Mean striatal SBR (unitless)

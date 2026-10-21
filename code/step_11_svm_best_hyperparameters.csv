@@ -1,0 +1,2 @@
+﻿model,best_trial,best_auc_pr,kernel,C,gamma,degree,coef0
+SVM,24,0.586748689808536,linear,0.38126696180654973,scale,3,0.0

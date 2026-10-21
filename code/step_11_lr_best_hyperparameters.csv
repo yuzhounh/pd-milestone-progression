@@ -1,0 +1,2 @@
+﻿model,best_trial,best_auc_pr,penalty,solver,C,l1_ratio
+LR,58,0.5872060773334009,l2,lbfgs,0.010714747352197287,

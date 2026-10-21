@@ -1,0 +1,2 @@
+﻿model,best_trial,best_auc_pr,n_estimators,learning_rate,max_depth,subsample,colsample_bytree,reg_alpha,reg_lambda,gamma,min_child_weight,scale_pos_weight
+XGBoost,73,0.5630805059312006,133,0.1585935950442498,2,0.9450167555147286,0.7987223745844796,0.0061181826745325225,2.4191241280322475,0.22887651604125275,6,1.2302173375829368

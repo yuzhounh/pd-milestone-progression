@@ -1,0 +1,2 @@
+﻿model,best_trial,best_auc_pr,n_estimators,max_depth,min_samples_split,min_samples_leaf,max_features
+RF,85,0.552892542466936,115,15,2,17,0.18815222050164102
